@@ -1,6 +1,6 @@
 import json
 
-with open('L1_DAC_bNAC219_1_cellParams.json', 'r') as file:
+with open('/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/scripts/L1_DAC_cNAC187_1_cellParams.json', 'r') as file:
     data = json.load(file)
 
 topol_data = {}
@@ -41,5 +41,5 @@ for sec_name, pt3d_points in sections.items():
         hoc_code += f"    pt3dadd({x}, {y}, {z}, {diam})\n"  
     hoc_code += "  }\n"  
 
-with open('L1_DAC_bNAC219_1_cell.hoc', 'w') as file:
+with open('L1_DAC_cNAC187_1_cell.hoc', 'w') as file:
     file.write(hoc_code)

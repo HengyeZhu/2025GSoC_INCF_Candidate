@@ -15,7 +15,7 @@ default_parameters = {
     'Ca': {'ion': 'ca', 'erev': '132.4579341637009 mV'}
 }
 
-with open('L1_DAC_bNAC219_1_cellParams.json', 'r') as file:
+with open('/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/scripts/L1_DAC_cNAC187_1_cellParams.json') as file:
     data = json.load(file)
 
 mechs_ions_data = {}
