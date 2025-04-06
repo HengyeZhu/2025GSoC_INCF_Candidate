@@ -26,9 +26,9 @@ def main(acell):
     loader_hoc_file_txt = """
     /*load_file("nrngui.hoc")*/
     load_file("stdrun.hoc")
-    xopen("/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/scripts/L1_DAC_bNAC219_1_cell.hoc")
+    xopen("../../NEURON/mb/cell_templates/GGN_20170309_sc.hoc")
     objref cell
-    cell = new L1_DAC_bNAC219_1_cell()
+    cell = new GGN_20170309_sc()
     """
 
     with open(loader_hoc_file, 'w') as f:
