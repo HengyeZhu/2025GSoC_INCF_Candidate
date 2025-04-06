@@ -9,7 +9,6 @@ Components:
     Ih (Type: ionChannelHH:  conductance=1.0E-11 (SI conductance))
     pas (Type: ionChannelPassive:  conductance=1.0E-11 (SI conductance))
     Im (Type: ionChannelHH:  conductance=1.0E-11 (SI conductance))
-    null (Type: notes)
     NaTa_t (Type: ionChannelHH:  conductance=1.0E-11 (SI conductance))
     Ca_LVAst (Type: ionChannelHH:  conductance=1.0E-11 (SI conductance))
     SK_E2 (Type: ionChannelHH:  conductance=1.0E-11 (SI conductance))

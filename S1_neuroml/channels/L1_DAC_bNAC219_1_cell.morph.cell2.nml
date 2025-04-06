@@ -23,8 +23,8 @@
   <include href="CaDynamics_E2.nml"></include>
   <include href="Ca.nml"></include>
 
-  <cell id="L1_DAC_bNAC219_1_cell_0_0">
-    <notes>Cell: L1_DAC_bNAC219_1_cell_0_0 exported from NEURON ModelView</notes>
+  <cell id="L1_DAC_bNAC219_1_cell2_0_0">
+    <notes>Cell: L1_DAC_bNAC219_1_cell2_0_0 exported from NEURON ModelView</notes>
     <morphology id="morphology">
 <!-- Section: L1_DAC_bNAC219_1_cell[0].soma (segmentGroup: soma) which has 21 3D points, so 20 segment(s)-->
       <segment id="0" name = "Seg0_soma">

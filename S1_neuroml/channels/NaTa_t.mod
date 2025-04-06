@@ -259,24 +259,6 @@ PROCEDURE rates() {
     h_tau = 1/(( h_alpha + h_beta ) *  h_rateScale ) ? evaluable
     
      
-    
-     
-    
-     
-    
-     
-    
-     
-    
-     
-    
-     
-    
-     
-    
-     
-    
-     
     rate_m_q = ( m_inf  -  m_q ) /  m_tau ? Note units of all quantities used here need to be consistent!
     
      
