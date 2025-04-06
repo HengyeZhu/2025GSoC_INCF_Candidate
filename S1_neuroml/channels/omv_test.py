@@ -29,10 +29,10 @@ random.seed(1412)
 def step_current_omv():
     """Create a step current simulation OMV LEMS file"""
     # read the cell file, modify it, write a new one
-    netdoc = read_neuroml2_file("L1_DAC_bNAC219_1_cell.morph.cell.nml")
+    netdoc = read_neuroml2_file("L1_DAC_bNAC219_1_cell.morph.cell2.nml")
     L1_DAC_bNAC219_1_cell = netdoc.cells[0]
-    net = netdoc.add(neuroml.Network, id="L1_DAC_bNAC219_1_cell_net", validate=False)
-    pop = net.add(neuroml.Population, id="L1_DAC_bNAC219_1_cellpop", component=L1_DAC_bNAC219_1_cell.id, size=1)
+    net = netdoc.add(neuroml.Network, id="L1_DAC_bNAC219_1_cell2_net", validate=False)
+    pop = net.add(neuroml.Population, id="L1_DAC_bNAC219_1_cell2pop", component=L1_DAC_bNAC219_1_cell.id, size=1)
 
     # should be same as test_kc.py
     pg = netdoc.add(
@@ -54,15 +54,15 @@ def step_current_omv():
             segment_id="0",
         )
     )
-    write_neuroml2_file(netdoc, "L1_DAC_bNAC219_1_cell.net.nml")
+    write_neuroml2_file(netdoc, "L1_DAC_bNAC219_1_cell2.net.nml")
 
     generate_lems_file_for_neuroml(
-        sim_id="L1_DAC_bNAC219_1_cell_step_test",
+        sim_id="L1_DAC_bNAC219_1_cell2_step_test",
         target=net.id,
-        neuroml_file="L1_DAC_bNAC219_1_cell.net.nml",
+        neuroml_file="L1_DAC_bNAC219_1_cell2.net.nml",
         duration="3000ms",
         dt="0.01ms",
-        lems_file_name="LEMS_L1_DAC_bNAC219_1_cell_step_test.xml",
+        lems_file_name="LEMS_L1_DAC_bNAC219_1_cell2_step_test.xml",
         nml_doc=netdoc,
         gen_spike_saves_for_all_somas=True,
         target_dir=".",
@@ -70,7 +70,7 @@ def step_current_omv():
     )
 
     data = run_lems_with_jneuroml_neuron(
-        "LEMS_L1_DAC_bNAC219_1_cell_step_test.xml", load_saved_data=True, compile_mods=True
+        "LEMS_L1_DAC_bNAC219_1_cell2_step_test.xml", load_saved_data=True, compile_mods=True
     )
 
     print(data.keys())
@@ -78,8 +78,8 @@ def step_current_omv():
     # print(data)
     generate_plot(
         xvalues=[data["t"]],
-        yvalues=[data["L1_DAC_bNAC219_1_cell_pop[0]/v"]],
-        title="Membrane potential: L1_DAC_bNAC219_1_cell",
+        yvalues=[data["L1_DAC_bNAC219_1_cell2_pop[0]/v"]],
+        title="Membrane potential: L1_DAC_bNAC219_1_cell2",
     )
 
 if __name__ == "__main__":

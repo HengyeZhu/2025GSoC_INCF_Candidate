@@ -170,23 +170,23 @@
         <distal x="6.81603" y="9.38749" z="0.928863" diameter="3.98"/>
       </segment>
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_0 (segmentGroup: dend_0) which has 10 3D points, so 9 segment(s)-->
-      <segment id="19" name = "Seg0_dend_0">
+      <segment id="190000" name = "Seg0_dend_0">
         <parent segment="20"/>
         <proximal x="-3.16397" y="-11.1535" z="-2.51114" diameter="3.76"/>
         <distal x="-3.16397" y="-11.1535" z="-2.51114" diameter="3.76"/>
       </segment>
-      <segment id="20" name = "Seg1_dend_0">
-        <parent segment="19"/>
+      <segment id="200000" name = "Seg1_dend_0">
+        <parent segment="190000"/>
         <distal x="-3.66185" y="-12.8226" z="-3.04001" diameter="3.09"/>
       </segment>
       <segment id="21" name = "Seg2_dend_0">
-        <parent segment="20"/>
+        <parent segment="200000"/>
         <distal x="-4.10519" y="-14.2371" z="-3.48923" diameter="3.02"/>
       </segment>
       <segment id="22" name = "Seg3_dend_0">
         <parent segment="21"/>
         <distal x="-4.37537" y="-15.0464" z="-3.75767" diameter="3.02"/>
-      </segment>
+      </segment>b
       <segment id="23" name = "Seg4_dend_0">
         <parent segment="22"/>
         <distal x="-4.64665" y="-15.859" z="-4.02722" diameter="3.02"/>
@@ -207,7 +207,16 @@
         <parent segment="26"/>
         <distal x="-6.52808" y="-21.2093" z="-5.92887" diameter="2.95"/>
       </segment>
-<!-- Section: L1_DAC_bNAC219_1_cell[0].axon_0 (segmentGroup: axon_0) which has 0 3D points, so -1 segment(s)-->
+
+      <segment id="999900" name="Seg0_axon_0">
+          <parent fractionAlong="1" segment="20"/>
+          <proximal y="5.674180e-02" x="7.667050e+00" z="0.000000e+00" diameter="5.801560e-01"/>
+          <distal y="-7.899570e-02" x="2.266640e+01" z="0.000000e+00" diameter="5.801560e-01"/>
+      </segment>
+      <segment id="999901" name="Seg1_axon_0">
+          <parent fractionAlong="1" segment="999900"/>
+          <distal y="-2.147330e-01" x="3.766580e+01" z="0.000000e+00" diameter="5.801560e-01"/>
+      </segment>
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_75 (segmentGroup: dend_75) which has 15 3D points, so 14 segment(s)-->
       <segment id="2838" name = "Seg0_dend_75">
         <parent segment="2667"/>
@@ -1017,6 +1026,15 @@
         <distal x="-10.3982" y="-26.203" z="-4.29063" diameter="1.55"/>
       </segment>
 <!-- Section: L1_DAC_bNAC219_1_cell[0].axon_1 (segmentGroup: axon_1) which has 0 3D points, so -1 segment(s)-->
+      <segment id="999902" name="Seg0_axon_1">
+          <parent fractionAlong="1" segment="999901"/>
+          <proximal y="-2.147330e-01" x="3.766580e+01" z="0.000000e+00" diameter="2.200000e-01"/>
+          <distal y="-3.504710e-01" x="5.266520e+01" z="0.000000e+00" diameter="2.200000e-01"/>
+      </segment>
+      <segment id="999903" name="Seg1_axon_1">
+          <parent fractionAlong="1" segment="999902"/>
+          <distal y="-4.862080e-01" x="6.766460e+01" z="0.000000e+00" diameter="2.200000e-01"/>
+      </segment>
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_77 (segmentGroup: dend_77) which has 65 3D points, so 64 segment(s)-->
       <segment id="2918" name = "Seg0_dend_77">
         <parent segment="2851"/>
@@ -12194,8 +12212,8 @@
          <notes>This group contains an unbranched set of segments, and all of the segmentGroups marked with
              neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
              These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections.</notes>
-        <member segment = "19"/>
-        <member segment = "20"/>
+        <member segment = "190000"/>
+        <member segment = "200000"/>
         <member segment = "21"/>
         <member segment = "22"/>
         <member segment = "23"/>
@@ -12208,11 +12226,13 @@
 
 <!-- Section: L1_DAC_bNAC219_1_cell[0].axon_0 (segmentGroup: axon_0) which has 0 3D points, so -1 segment(s)-->
 
-      <segmentGroup id = "axon_0"  neuroLexId="sao864921383">
-         <notes>This group contains an unbranched set of segments, and all of the segmentGroups marked with
+            <segmentGroup neuroLexId="sao864921383" id="axon_0">
+                <notes>This group contains an unbranched set of segments, and all of the segmentGroups marked with
              neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
              These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections.</notes>
-      </segmentGroup>
+                <member segment="999900"/>
+                <member segment="999901"/>
+            </segmentGroup>
 
 
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_75 (segmentGroup: dend_75) which has 15 3D points, so 14 segment(s)-->
@@ -12487,11 +12507,13 @@
 
 <!-- Section: L1_DAC_bNAC219_1_cell[0].axon_1 (segmentGroup: axon_1) which has 0 3D points, so -1 segment(s)-->
 
-      <segmentGroup id = "axon_1"  neuroLexId="sao864921383">
-         <notes>This group contains an unbranched set of segments, and all of the segmentGroups marked with
+            <segmentGroup neuroLexId="sao864921383" id="axon_1">
+                <notes>This group contains an unbranched set of segments, and all of the segmentGroups marked with
              neuroLexId = sao864921383 form a non-overlapping set of all of the segments.
              These segmentGroups correspond to the 'cables' of NeuroML v1.8.1, and map to/from NEURON sections.</notes>
-      </segmentGroup>
+                <member segment="999902"/>
+                <member segment="999903"/>
+            </segmentGroup>
 
 
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_77 (segmentGroup: dend_77) which has 65 3D points, so 64 segment(s)-->
@@ -15927,7 +15949,7 @@
           <proximal translationStart="0.000000e+00"/>
         </inhomogeneousParameter>
       </segmentGroup>
-      <segmentGroup id="apical">
+      <segmentGroup id="apical">LEMS_L1_DAC_bNAC219_1_cell_step_test_nrn
         <inhomogeneousParameter id="PathLengthOver_apical" variable="p" metric="Path Length from root">
           <proximal translationStart="0.000000e+00"/>
         </inhomogeneousParameter>
