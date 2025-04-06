@@ -26,9 +26,9 @@ def main(acell):
     loader_hoc_file_txt = """
     /*load_file("nrngui.hoc")*/
     load_file("stdrun.hoc")
-    xopen("../../NEURON/mb/cell_templates/GGN_20170309_sc.hoc")
+    xopen("/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/scripts/L1_DAC_bNAC219_1_cell.hoc")
     objref cell
-    cell = new GGN_20170309_sc()
+    cell = new L1_DAC_bNAC219_1_cell()
     """
 
     with open(loader_hoc_file, 'w') as f:
@@ -47,3 +47,5 @@ if __name__ == "__main__":
         print("This script only accepts one argument.")
         sys.exit(1)
     main(sys.argv[1])
+
+    

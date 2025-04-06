@@ -197,12 +197,12 @@
             </segment>
             <segment id="999900" name="Seg0_axon_0">
                 <parent segment="20"/>
-                <proximal x="7.66705" y="0.0567418" z="0.0" diameter="0.580156"/>
-                <distal x="22.6664" y="-0.0789957" z="0.0" diameter="0.580156"/>
+                <proximal x="4.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879"/>
+                <distal x="19.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879"/>
             </segment>
             <segment id="999901" name="Seg1_axon_0">
                 <parent segment="999900"/>
-                <distal x="37.6658" y="-0.214733" z="0.0" diameter="0.580156"/>
+                <distal x="34.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879"/>
             </segment>
             <segment id="2838" name="Seg0_dend_75">
                 <parent segment="2667"/>
@@ -1006,12 +1006,12 @@
             </segment>
             <segment id="999902" name="Seg0_axon_1">
                 <parent segment="999901"/>
-                <proximal x="37.6658" y="-0.214733" z="0.0" diameter="0.22"/>
-                <distal x="52.6652" y="-0.350471" z="0.0" diameter="0.22"/>
+                <proximal x="34.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827"/>
+                <distal x="49.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827"/>
             </segment>
             <segment id="999903" name="Seg1_axon_1">
                 <parent segment="999902"/>
-                <distal x="67.6646" y="-0.486208" z="0.0" diameter="0.22"/>
+                <distal x="64.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827"/>
             </segment>
             <segment id="2918" name="Seg0_dend_77">
                 <parent segment="2851"/>
@@ -15604,7 +15604,7 @@
             </intracellularProperties>
         </biophysicalProperties>
     </cell>
-    <pulseGenerator id="pg" delay="100ms" duration="2500ms" amplitude="80pA"/>
+    <pulseGenerator id="pg" delay="100ms" duration="2500ms" amplitude="50pA"/>
     <network id="L1_DAC_bNAC219_1_cell2_net">
         <population id="L1_DAC_bNAC219_1_cell2pop" component="L1_DAC_bNAC219_1_cell2_0_0" size="1"/>
         <inputList id="input_list" population="L1_DAC_bNAC219_1_cell2pop" component="pg">

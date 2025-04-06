@@ -18,7 +18,7 @@ Components:
     CaDynamics_E2__bNAC_1_somatic (Type: concentrationModelHayEtAl:  gamma=5.0E-4 (dimensionless) minCai=1.0E-4 (SI concentration) decay=0.645079741 (SI time) depth=1.0E-7 (SI length) Faraday=96485.3 (SI charge_per_mole) AREA_SCALE=1.0 (SI area) LENGTH_SCALE=1.0 (SI length))
     Ca (Type: ionChannelHH:  conductance=1.0E-11 (SI conductance))
     L1_DAC_bNAC219_1_cell2_0_0 (Type: cell)
-    pg (Type: pulseGenerator:  delay=0.1 (SI time) duration=2.5 (SI time) amplitude=8.0E-11 (SI current))
+    pg (Type: pulseGenerator:  delay=0.1 (SI time) duration=2.5 (SI time) amplitude=5.0E-11 (SI current))
     L1_DAC_bNAC219_1_cell2_net (Type: network)
     L1_DAC_bNAC219_1_cell2_step_test (Type: Simulation:  length=3.0 (SI time) step=1.0E-5 (SI time))
 

@@ -210,13 +210,14 @@
 
       <segment id="999900" name="Seg0_axon_0">
           <parent fractionAlong="1" segment="20"/>
-          <proximal y="5.674180e-02" x="7.667050e+00" z="0.000000e+00" diameter="5.801560e-01"/>
-          <distal y="-7.899570e-02" x="2.266640e+01" z="0.000000e+00" diameter="5.801560e-01"/>
+          <proximal x="4.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879"/>
+          <distal x="19.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879"/>
       </segment>
       <segment id="999901" name="Seg1_axon_0">
           <parent fractionAlong="1" segment="999900"/>
-          <distal y="-2.147330e-01" x="3.766580e+01" z="0.000000e+00" diameter="5.801560e-01"/>
+          <distal x="34.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879"/>
       </segment>
+
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_75 (segmentGroup: dend_75) which has 15 3D points, so 14 segment(s)-->
       <segment id="2838" name = "Seg0_dend_75">
         <parent segment="2667"/>
@@ -1028,13 +1029,16 @@
 <!-- Section: L1_DAC_bNAC219_1_cell[0].axon_1 (segmentGroup: axon_1) which has 0 3D points, so -1 segment(s)-->
       <segment id="999902" name="Seg0_axon_1">
           <parent fractionAlong="1" segment="999901"/>
-          <proximal y="-2.147330e-01" x="3.766580e+01" z="0.000000e+00" diameter="2.200000e-01"/>
-          <distal y="-3.504710e-01" x="5.266520e+01" z="0.000000e+00" diameter="2.200000e-01"/>
+          <proximal x="34.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827"/>
+          <distal x="49.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827"/>
       </segment>
       <segment id="999903" name="Seg1_axon_1">
           <parent fractionAlong="1" segment="999902"/>
-          <distal y="-4.862080e-01" x="6.766460e+01" z="0.000000e+00" diameter="2.200000e-01"/>
+          <distal x="64.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827"/>
       </segment>
+
+
+
 <!-- Section: L1_DAC_bNAC219_1_cell[0].dend_77 (segmentGroup: dend_77) which has 65 3D points, so 64 segment(s)-->
       <segment id="2918" name = "Seg0_dend_77">
         <parent segment="2851"/>
