@@ -1,4 +1,3 @@
-```markdown
 ## Running the Code
 Follow these steps to execute the code:
 
