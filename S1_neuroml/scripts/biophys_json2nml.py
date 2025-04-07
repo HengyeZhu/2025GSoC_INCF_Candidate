@@ -1,6 +1,7 @@
 import json
 
-#default_parameters of L1_DAC_bNAC219_1_cell
+### extract biophys data and then make manual adjustments
+#default_parameters of L1_DAC_bNAC219_4_cell
 default_parameters = {
     'SKv3_1': {'ion': 'k', 'erev': '-85.0 mV'},
     'Nap_Et2': {'ion': 'na', 'erev': '50.0 mV'},
@@ -15,7 +16,7 @@ default_parameters = {
     'Ca': {'ion': 'ca', 'erev': '132.4579341637009 mV'}
 }
 
-with open('/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/scripts/L1_DAC_cNAC187_1_cellParams.json') as file:
+with open('/home/gluciferd/2025GSoC_INCF_Candidate/S1_netpyne/sim/cell_data/L1_DAC_bNAC219_4/L1_DAC_bNAC219_4_cellParams.json') as file:
     data = json.load(file)
 
 mechs_ions_data = {}
@@ -59,7 +60,5 @@ for channel_key, segments in channels_info.items():
 neuroml_output += '  </membraneProperties>\n'
 neuroml_output += '</biophysicalProperties>\n'
 
-with open('L1_DAC_bNAC219_1_cell.biophys.cell.xml', 'w') as file:
+with open('L1_DAC_bNAC219_4_cell.biophys.cell.xml', 'w') as file:
     file.write(neuroml_output)
-
-print("ok")

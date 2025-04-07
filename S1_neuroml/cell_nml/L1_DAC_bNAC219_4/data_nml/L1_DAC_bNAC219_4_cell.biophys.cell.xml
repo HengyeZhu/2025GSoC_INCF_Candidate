@@ -1,0 +1,366 @@
+<morphology>
+  <segmentGroup id="Ca_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="Ca_LVAst_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="Im_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="K_Pst_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="K_Tst_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="NaTa_t_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="Nap_Et2_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="SK_E2_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="SKv3_1_group">
+    <include segmentGroup="axon_0"/>
+    <include segmentGroup="axon_1"/>
+  </segmentGroup>
+  <segmentGroup id="Im_group">
+    <include segmentGroup="dend_0"/>
+    <include segmentGroup="dend_1"/>
+    <include segmentGroup="dend_10"/>
+    <include segmentGroup="dend_11"/>
+    <include segmentGroup="dend_12"/>
+    <include segmentGroup="dend_13"/>
+    <include segmentGroup="dend_14"/>
+    <include segmentGroup="dend_15"/>
+    <include segmentGroup="dend_16"/>
+    <include segmentGroup="dend_17"/>
+    <include segmentGroup="dend_18"/>
+    <include segmentGroup="dend_19"/>
+    <include segmentGroup="dend_2"/>
+    <include segmentGroup="dend_20"/>
+    <include segmentGroup="dend_21"/>
+    <include segmentGroup="dend_22"/>
+    <include segmentGroup="dend_23"/>
+    <include segmentGroup="dend_24"/>
+    <include segmentGroup="dend_25"/>
+    <include segmentGroup="dend_26"/>
+    <include segmentGroup="dend_27"/>
+    <include segmentGroup="dend_28"/>
+    <include segmentGroup="dend_29"/>
+    <include segmentGroup="dend_3"/>
+    <include segmentGroup="dend_30"/>
+    <include segmentGroup="dend_31"/>
+    <include segmentGroup="dend_32"/>
+    <include segmentGroup="dend_33"/>
+    <include segmentGroup="dend_34"/>
+    <include segmentGroup="dend_35"/>
+    <include segmentGroup="dend_36"/>
+    <include segmentGroup="dend_37"/>
+    <include segmentGroup="dend_38"/>
+    <include segmentGroup="dend_39"/>
+    <include segmentGroup="dend_4"/>
+    <include segmentGroup="dend_40"/>
+    <include segmentGroup="dend_41"/>
+    <include segmentGroup="dend_42"/>
+    <include segmentGroup="dend_43"/>
+    <include segmentGroup="dend_5"/>
+    <include segmentGroup="dend_6"/>
+    <include segmentGroup="dend_7"/>
+    <include segmentGroup="dend_8"/>
+    <include segmentGroup="dend_9"/>
+  </segmentGroup>
+  <segmentGroup id="K_Pst_group">
+    <include segmentGroup="dend_0"/>
+    <include segmentGroup="dend_1"/>
+    <include segmentGroup="dend_10"/>
+    <include segmentGroup="dend_11"/>
+    <include segmentGroup="dend_12"/>
+    <include segmentGroup="dend_13"/>
+    <include segmentGroup="dend_14"/>
+    <include segmentGroup="dend_15"/>
+    <include segmentGroup="dend_16"/>
+    <include segmentGroup="dend_17"/>
+    <include segmentGroup="dend_18"/>
+    <include segmentGroup="dend_19"/>
+    <include segmentGroup="dend_2"/>
+    <include segmentGroup="dend_20"/>
+    <include segmentGroup="dend_21"/>
+    <include segmentGroup="dend_22"/>
+    <include segmentGroup="dend_23"/>
+    <include segmentGroup="dend_24"/>
+    <include segmentGroup="dend_25"/>
+    <include segmentGroup="dend_26"/>
+    <include segmentGroup="dend_27"/>
+    <include segmentGroup="dend_28"/>
+    <include segmentGroup="dend_29"/>
+    <include segmentGroup="dend_3"/>
+    <include segmentGroup="dend_30"/>
+    <include segmentGroup="dend_31"/>
+    <include segmentGroup="dend_32"/>
+    <include segmentGroup="dend_33"/>
+    <include segmentGroup="dend_34"/>
+    <include segmentGroup="dend_35"/>
+    <include segmentGroup="dend_36"/>
+    <include segmentGroup="dend_37"/>
+    <include segmentGroup="dend_38"/>
+    <include segmentGroup="dend_39"/>
+    <include segmentGroup="dend_4"/>
+    <include segmentGroup="dend_40"/>
+    <include segmentGroup="dend_41"/>
+    <include segmentGroup="dend_42"/>
+    <include segmentGroup="dend_43"/>
+    <include segmentGroup="dend_5"/>
+    <include segmentGroup="dend_6"/>
+    <include segmentGroup="dend_7"/>
+    <include segmentGroup="dend_8"/>
+    <include segmentGroup="dend_9"/>
+  </segmentGroup>
+  <segmentGroup id="K_Tst_group">
+    <include segmentGroup="dend_0"/>
+    <include segmentGroup="dend_1"/>
+    <include segmentGroup="dend_10"/>
+    <include segmentGroup="dend_11"/>
+    <include segmentGroup="dend_12"/>
+    <include segmentGroup="dend_13"/>
+    <include segmentGroup="dend_14"/>
+    <include segmentGroup="dend_15"/>
+    <include segmentGroup="dend_16"/>
+    <include segmentGroup="dend_17"/>
+    <include segmentGroup="dend_18"/>
+    <include segmentGroup="dend_19"/>
+    <include segmentGroup="dend_2"/>
+    <include segmentGroup="dend_20"/>
+    <include segmentGroup="dend_21"/>
+    <include segmentGroup="dend_22"/>
+    <include segmentGroup="dend_23"/>
+    <include segmentGroup="dend_24"/>
+    <include segmentGroup="dend_25"/>
+    <include segmentGroup="dend_26"/>
+    <include segmentGroup="dend_27"/>
+    <include segmentGroup="dend_28"/>
+    <include segmentGroup="dend_29"/>
+    <include segmentGroup="dend_3"/>
+    <include segmentGroup="dend_30"/>
+    <include segmentGroup="dend_31"/>
+    <include segmentGroup="dend_32"/>
+    <include segmentGroup="dend_33"/>
+    <include segmentGroup="dend_34"/>
+    <include segmentGroup="dend_35"/>
+    <include segmentGroup="dend_36"/>
+    <include segmentGroup="dend_37"/>
+    <include segmentGroup="dend_38"/>
+    <include segmentGroup="dend_39"/>
+    <include segmentGroup="dend_4"/>
+    <include segmentGroup="dend_40"/>
+    <include segmentGroup="dend_41"/>
+    <include segmentGroup="dend_42"/>
+    <include segmentGroup="dend_43"/>
+    <include segmentGroup="dend_5"/>
+    <include segmentGroup="dend_6"/>
+    <include segmentGroup="dend_7"/>
+    <include segmentGroup="dend_8"/>
+    <include segmentGroup="dend_9"/>
+  </segmentGroup>
+  <segmentGroup id="NaTs2_t_group">
+    <include segmentGroup="dend_0"/>
+    <include segmentGroup="dend_1"/>
+    <include segmentGroup="dend_10"/>
+    <include segmentGroup="dend_11"/>
+    <include segmentGroup="dend_12"/>
+    <include segmentGroup="dend_13"/>
+    <include segmentGroup="dend_14"/>
+    <include segmentGroup="dend_15"/>
+    <include segmentGroup="dend_16"/>
+    <include segmentGroup="dend_17"/>
+    <include segmentGroup="dend_18"/>
+    <include segmentGroup="dend_19"/>
+    <include segmentGroup="dend_2"/>
+    <include segmentGroup="dend_20"/>
+    <include segmentGroup="dend_21"/>
+    <include segmentGroup="dend_22"/>
+    <include segmentGroup="dend_23"/>
+    <include segmentGroup="dend_24"/>
+    <include segmentGroup="dend_25"/>
+    <include segmentGroup="dend_26"/>
+    <include segmentGroup="dend_27"/>
+    <include segmentGroup="dend_28"/>
+    <include segmentGroup="dend_29"/>
+    <include segmentGroup="dend_3"/>
+    <include segmentGroup="dend_30"/>
+    <include segmentGroup="dend_31"/>
+    <include segmentGroup="dend_32"/>
+    <include segmentGroup="dend_33"/>
+    <include segmentGroup="dend_34"/>
+    <include segmentGroup="dend_35"/>
+    <include segmentGroup="dend_36"/>
+    <include segmentGroup="dend_37"/>
+    <include segmentGroup="dend_38"/>
+    <include segmentGroup="dend_39"/>
+    <include segmentGroup="dend_4"/>
+    <include segmentGroup="dend_40"/>
+    <include segmentGroup="dend_41"/>
+    <include segmentGroup="dend_42"/>
+    <include segmentGroup="dend_43"/>
+    <include segmentGroup="dend_5"/>
+    <include segmentGroup="dend_6"/>
+    <include segmentGroup="dend_7"/>
+    <include segmentGroup="dend_8"/>
+    <include segmentGroup="dend_9"/>
+  </segmentGroup>
+  <segmentGroup id="Nap_Et2_group">
+    <include segmentGroup="dend_0"/>
+    <include segmentGroup="dend_1"/>
+    <include segmentGroup="dend_10"/>
+    <include segmentGroup="dend_11"/>
+    <include segmentGroup="dend_12"/>
+    <include segmentGroup="dend_13"/>
+    <include segmentGroup="dend_14"/>
+    <include segmentGroup="dend_15"/>
+    <include segmentGroup="dend_16"/>
+    <include segmentGroup="dend_17"/>
+    <include segmentGroup="dend_18"/>
+    <include segmentGroup="dend_19"/>
+    <include segmentGroup="dend_2"/>
+    <include segmentGroup="dend_20"/>
+    <include segmentGroup="dend_21"/>
+    <include segmentGroup="dend_22"/>
+    <include segmentGroup="dend_23"/>
+    <include segmentGroup="dend_24"/>
+    <include segmentGroup="dend_25"/>
+    <include segmentGroup="dend_26"/>
+    <include segmentGroup="dend_27"/>
+    <include segmentGroup="dend_28"/>
+    <include segmentGroup="dend_29"/>
+    <include segmentGroup="dend_3"/>
+    <include segmentGroup="dend_30"/>
+    <include segmentGroup="dend_31"/>
+    <include segmentGroup="dend_32"/>
+    <include segmentGroup="dend_33"/>
+    <include segmentGroup="dend_34"/>
+    <include segmentGroup="dend_35"/>
+    <include segmentGroup="dend_36"/>
+    <include segmentGroup="dend_37"/>
+    <include segmentGroup="dend_38"/>
+    <include segmentGroup="dend_39"/>
+    <include segmentGroup="dend_4"/>
+    <include segmentGroup="dend_40"/>
+    <include segmentGroup="dend_41"/>
+    <include segmentGroup="dend_42"/>
+    <include segmentGroup="dend_43"/>
+    <include segmentGroup="dend_5"/>
+    <include segmentGroup="dend_6"/>
+    <include segmentGroup="dend_7"/>
+    <include segmentGroup="dend_8"/>
+    <include segmentGroup="dend_9"/>
+  </segmentGroup>
+  <segmentGroup id="SKv3_1_group">
+    <include segmentGroup="dend_0"/>
+    <include segmentGroup="dend_1"/>
+    <include segmentGroup="dend_10"/>
+    <include segmentGroup="dend_11"/>
+    <include segmentGroup="dend_12"/>
+    <include segmentGroup="dend_13"/>
+    <include segmentGroup="dend_14"/>
+    <include segmentGroup="dend_15"/>
+    <include segmentGroup="dend_16"/>
+    <include segmentGroup="dend_17"/>
+    <include segmentGroup="dend_18"/>
+    <include segmentGroup="dend_19"/>
+    <include segmentGroup="dend_2"/>
+    <include segmentGroup="dend_20"/>
+    <include segmentGroup="dend_21"/>
+    <include segmentGroup="dend_22"/>
+    <include segmentGroup="dend_23"/>
+    <include segmentGroup="dend_24"/>
+    <include segmentGroup="dend_25"/>
+    <include segmentGroup="dend_26"/>
+    <include segmentGroup="dend_27"/>
+    <include segmentGroup="dend_28"/>
+    <include segmentGroup="dend_29"/>
+    <include segmentGroup="dend_3"/>
+    <include segmentGroup="dend_30"/>
+    <include segmentGroup="dend_31"/>
+    <include segmentGroup="dend_32"/>
+    <include segmentGroup="dend_33"/>
+    <include segmentGroup="dend_34"/>
+    <include segmentGroup="dend_35"/>
+    <include segmentGroup="dend_36"/>
+    <include segmentGroup="dend_37"/>
+    <include segmentGroup="dend_38"/>
+    <include segmentGroup="dend_39"/>
+    <include segmentGroup="dend_4"/>
+    <include segmentGroup="dend_40"/>
+    <include segmentGroup="dend_41"/>
+    <include segmentGroup="dend_42"/>
+    <include segmentGroup="dend_43"/>
+    <include segmentGroup="dend_5"/>
+    <include segmentGroup="dend_6"/>
+    <include segmentGroup="dend_7"/>
+    <include segmentGroup="dend_8"/>
+    <include segmentGroup="dend_9"/>
+  </segmentGroup>
+  <segmentGroup id="Ca_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="Ca_LVAst_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="Im_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="K_Pst_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="K_Tst_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="NaTs2_t_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="SK_E2_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+  <segmentGroup id="SKv3_1_group">
+    <include segmentGroup="soma"/>
+  </segmentGroup>
+</morphology>
+<biophysicalProperties id="biophys">
+  <membraneProperties>
+    <channelDensity id="Ca_group_Ca" segmentGroup="Ca_group" ion="ca" ionChannel="Ca" erev="132.4579341637009 mV" condDensity="gCabar=0.0004)"/>
+    <channelDensity id="Ca_LVAst_group_Ca_LVAst" segmentGroup="Ca_LVAst_group" ion="ca" ionChannel="Ca_LVAst" erev="132.4579341637009 mV" condDensity="gCa_LVAstbar=0.009017)"/>
+    <channelDensity id="Im_group_Im" segmentGroup="Im_group" ion="k" ionChannel="Im" erev="-85.0 mV" condDensity="gImbar=0.000554)"/>
+    <channelDensity id="K_Pst_group_K_Pst" segmentGroup="K_Pst_group" ion="k" ionChannel="K_Pst" erev="-85.0 mV" condDensity="gK_Pstbar=0.001693)"/>
+    <channelDensity id="K_Tst_group_K_Tst" segmentGroup="K_Tst_group" ion="k" ionChannel="K_Tst" erev="-85.0 mV" condDensity="gK_Tstbar=0.042115)"/>
+    <channelDensity id="NaTa_t_group_NaTa_t" segmentGroup="NaTa_t_group" ion="na" ionChannel="NaTa_t" erev="50.0 mV" condDensity="gNaTa_tbar=3.999855)"/>
+    <channelDensity id="Nap_Et2_group_Nap_Et2" segmentGroup="Nap_Et2_group" ion="na" ionChannel="Nap_Et2" erev="50.0 mV" condDensity="gNap_Et2bar=1e-06)"/>
+    <channelDensity id="SK_E2_group_SK_E2" segmentGroup="SK_E2_group" ion="k" ionChannel="SK_E2" erev="-85.0 mV" condDensity="gSK_E2bar=0.001224)"/>
+    <channelDensity id="SKv3_1_group_SKv3_1" segmentGroup="SKv3_1_group" ion="k" ionChannel="SKv3_1" erev="-85.0 mV" condDensity="gSKv3_1bar=0.386953)"/>
+    <channelDensity id="Im_group_Im" segmentGroup="Im_group" ion="k" ionChannel="Im" erev="-85.0 mV" condDensity="gImbar=2.2e-05)"/>
+    <channelDensity id="K_Pst_group_K_Pst" segmentGroup="K_Pst_group" ion="k" ionChannel="K_Pst" erev="-85.0 mV" condDensity="gK_Pstbar=1e-05)"/>
+    <channelDensity id="K_Tst_group_K_Tst" segmentGroup="K_Tst_group" ion="k" ionChannel="K_Tst" erev="-85.0 mV" condDensity="gK_Tstbar=0.001511)"/>
+    <channelDensity id="NaTs2_t_group_NaTs2_t" segmentGroup="NaTs2_t_group" ion="na" ionChannel="NaTs2_t" erev="50.0 mV" condDensity="gNaTs2_tbar=0.000229)"/>
+    <channelDensity id="Nap_Et2_group_Nap_Et2" segmentGroup="Nap_Et2_group" ion="na" ionChannel="Nap_Et2" erev="50.0 mV" condDensity="gNap_Et2bar=0.0)"/>
+    <channelDensity id="SKv3_1_group_SKv3_1" segmentGroup="SKv3_1_group" ion="k" ionChannel="SKv3_1" erev="-85.0 mV" condDensity="gSKv3_1bar=8.3e-05)"/>
+    <channelDensity id="Ca_group_Ca" segmentGroup="Ca_group" ion="ca" ionChannel="Ca" erev="132.4579341637009 mV" condDensity="gCabar=0.000174)"/>
+    <channelDensity id="Ca_LVAst_group_Ca_LVAst" segmentGroup="Ca_LVAst_group" ion="ca" ionChannel="Ca_LVAst" erev="132.4579341637009 mV" condDensity="gCa_LVAstbar=0.003242)"/>
+    <channelDensity id="Im_group_Im" segmentGroup="Im_group" ion="k" ionChannel="Im" erev="-85.0 mV" condDensity="gImbar=0.000478)"/>
+    <channelDensity id="K_Pst_group_K_Pst" segmentGroup="K_Pst_group" ion="k" ionChannel="K_Pst" erev="-85.0 mV" condDensity="gK_Pstbar=0.005446)"/>
+    <channelDensity id="K_Tst_group_K_Tst" segmentGroup="K_Tst_group" ion="k" ionChannel="K_Tst" erev="-85.0 mV" condDensity="gK_Tstbar=0.039863)"/>
+    <channelDensity id="NaTs2_t_group_NaTs2_t" segmentGroup="NaTs2_t_group" ion="na" ionChannel="NaTs2_t" erev="50.0 mV" condDensity="gNaTs2_tbar=0.150747)"/>
+    <channelDensity id="SK_E2_group_SK_E2" segmentGroup="SK_E2_group" ion="k" ionChannel="SK_E2" erev="-85.0 mV" condDensity="gSK_E2bar=0.000523)"/>
+    <channelDensity id="SKv3_1_group_SKv3_1" segmentGroup="SKv3_1_group" ion="k" ionChannel="SKv3_1" erev="-85.0 mV" condDensity="gSKv3_1bar=0.503893)"/>
+  </membraneProperties>
+</biophysicalProperties>
