@@ -195,7 +195,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
 #endif
   hoc_register_prop_size(_mechtype, 11, 0);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 pas_nml2 /home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/pas_nml2.mod\n");
+ 	ivoc_help("help ?1 pas_nml2 /home/gluciferd/2025GSoC_INCF_Project12/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/pas_nml2.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -348,7 +348,7 @@ _first = 0;
 #endif
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/pas_nml2.mod";
+static const char* nmodl_filename = "/home/gluciferd/2025GSoC_INCF_Project12/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/pas_nml2.mod";
 static const char* nmodl_file_text = 
   "TITLE Mod file for component: Component(id=pas type=ionChannelPassive)\n"
   "\n"

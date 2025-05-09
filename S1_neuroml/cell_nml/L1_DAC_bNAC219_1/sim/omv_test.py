@@ -29,7 +29,7 @@ random.seed(1412)
 def step_current_omv():
     """Create a step current simulation OMV LEMS file"""
     # read the cell file, modify it, write a new one
-    netdoc = read_neuroml2_file('/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/nml_data/L1_DAC_bNAC219_1_cell.nml')
+    netdoc = read_neuroml2_file('L1_DAC_bNAC219_1_cell.nml')
     L1_DAC_bNAC219_1_cell = netdoc.cells[0]
     net = netdoc.add(neuroml.Network, id="L1_DAC_bNAC219_1_cell_net", validate=False)
     pop = net.add(neuroml.Population, id="L1_DAC_bNAC219_1_cellpop", component=L1_DAC_bNAC219_1_cell.id, size=1)

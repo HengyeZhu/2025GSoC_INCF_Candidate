@@ -288,7 +288,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
  	hoc_register_tolerance(_mechtype, _hoc_state_tol, &_atollist);
  	hoc_register_synonym(_mechtype, _ode_synonym);
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 CaDynamics_E2__bNAC_1_axonal /home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/CaDynamics_E2__bNAC_1_axonal.mod\n");
+ 	ivoc_help("help ?1 CaDynamics_E2__bNAC_1_axonal /home/gluciferd/2025GSoC_INCF_Project12/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/CaDynamics_E2__bNAC_1_axonal.mod\n");
  hoc_register_limits(_mechtype, _hoc_parm_limits);
  hoc_register_units(_mechtype, _hoc_parm_units);
  }
@@ -538,7 +538,7 @@ _first = 0;
 }
 
 #if NMODL_TEXT
-static const char* nmodl_filename = "/home/gluciferd/2025GSoC_INCF_Candidate/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/CaDynamics_E2__bNAC_1_axonal.mod";
+static const char* nmodl_filename = "/home/gluciferd/2025GSoC_INCF_Project12/S1_neuroml/cell_nml/L1_DAC_bNAC219_1/sim/CaDynamics_E2__bNAC_1_axonal.mod";
 static const char* nmodl_file_text = 
   "TITLE Mod file for component: Component(id=CaDynamics_E2__bNAC_1_axonal type=concentrationModelHayEtAl)\n"
   "\n"
