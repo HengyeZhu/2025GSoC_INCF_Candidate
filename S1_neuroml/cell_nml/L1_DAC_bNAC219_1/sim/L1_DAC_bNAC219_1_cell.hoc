@@ -8,7 +8,7 @@ public all, somatic, basal, axonal, spiny, spinyEE
 proc init() {
   topol()
   geom()
-  biophys()
+  biophys() 
   geom_nseg()
 }
 

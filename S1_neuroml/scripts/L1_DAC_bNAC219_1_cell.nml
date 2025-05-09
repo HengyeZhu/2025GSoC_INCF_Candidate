@@ -205,6 +205,18 @@
         <distal x="-6.52808" y="-21.2093" z="-5.92887" diameter="2.95" />
       </segment>
 
+
+
+
+
+
+
+
+
+
+
+
+
       <segment id="999900" name="Seg0_axon_0">
           <parent fractionAlong="1" segment="20" />
           <proximal x="4.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879" />
@@ -214,6 +226,22 @@
           <parent fractionAlong="1" segment="999900" />
           <distal x="34.84639" y="10.4911" z="1.93769" diameter="0.9734139381016879" />
       </segment>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       <segment id="2838" name="Seg0_dend_75">
@@ -1024,15 +1052,30 @@
         <distal x="-10.3982" y="-26.203" z="-4.29063" diameter="1.55" />
       </segment>
 
+
+
+
+
+
+
       <segment id="999902" name="Seg0_axon_1">
           <parent fractionAlong="1" segment="999901" />
-          <proximal x="34.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827" />
-          <distal x="49.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827" />
+          <proximal x="34.84639" y="10.4911" z="1.93769" diameter="0.46000000834465027" />
+          <distal x="49.84639" y="10.4911" z="1.93769" diameter="0.46000000834465027" />
       </segment>
       <segment id="999903" name="Seg1_axon_1">
           <parent fractionAlong="1" segment="999902" />
-          <distal x="64.84639" y="10.4911" z="1.93769" diameter="0.33942574333205827" />
+          <distal x="64.84639" y="10.4911" z="1.93769" diameter="0.46000000834465027" />
       </segment>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12522,6 +12565,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
       <segmentGroup neuroLexId="sao864921383" id="axon_1">
         <property tag="numberInternalDivisions" value="1" />
         <notes>This group contains an unbranched set of segments, and all of the segmentGroups marked with
@@ -12530,6 +12582,12 @@
         <member segment="999902" />
         <member segment="999903" />
       </segmentGroup>
+
+
+
+
+
+
 
 
 
@@ -16098,7 +16156,7 @@
           <proximal translationStart="0.000000e+00" />
         </inhomogeneousParameter>
       </segmentGroup>
-      <segmentGroup id="apical">LEMS_L1_DAC_bNAC219_1_cell_step_test_nrn
+      <segmentGroup id="apical">
         <inhomogeneousParameter id="PathLengthOver_apical" variable="p" metric="Path Length from root">
           <proximal translationStart="0.000000e+00" />
         </inhomogeneousParameter>
