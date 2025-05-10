@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="NeuroML_ionChannel">
+
+    <concentrationModel id="CaDynamics_E2__bNAC_1_axonal" ion="ca" type="concentrationModelHayEtAl" minCai="1e-4 mM" gamma="0.001739" decay="468.069681 ms" depth="0.1 um"/>  
+    <concentrationModel id="CaDynamics_E2__bNAC_1_somatic" ion="ca" type="concentrationModelHayEtAl" minCai="1e-4 mM" gamma="0.000500" decay="645.079741 ms" depth="0.1 um"/> 
+
+    <concentrationModel id="CaDynamics_E2__bNAC_4_axonal" ion="ca" type="concentrationModelHayEtAl" minCai="1e-4 mM" gamma="0.001739" decay="468.069681 ms" depth="0.1 um"/>  
+    <concentrationModel id="CaDynamics_E2__bNAC_4_somatic" ion="ca" type="concentrationModelHayEtAl" minCai="1e-4 mM" gamma="0.000500" decay="645.079741 ms" depth="0.1 um"/> 
+    
+    <concentrationModel id="CaDynamics_E2__cNAC_1_axonal" ion="ca" type="concentrationModelHayEtAl" minCai="1e-4 mM" gamma="0.010353" decay="64.277990 ms" depth="0.1 um"/> 
+    <concentrationModel id="CaDynamics_E2__cNAC_1_somatic" ion="ca" type="concentrationModelHayEtAl" minCai="1e-4 mM" gamma="0.000511" decay="731.707637 ms" depth="0.1 um"/> 
+
+    <ComponentType name="concentrationModelHayEtAl" extends="concentrationModel">
+
+        <Parameter name="gamma" dimension="none"/>
+        <Parameter name="minCai" dimension="concentration"/>
+        <Parameter name="decay" dimension="time"/>
+        <Parameter name="depth" dimension="length"/>
+        <Constant name="Faraday" dimension="charge_per_mole" value="96485.3C_per_mol"/>
+        <Constant name="AREA_SCALE" dimension="area" value="1m2"/>
+        <Constant name="LENGTH_SCALE" dimension="length" value="1m"/>
+
+        <Requirement name="iCa" dimension="current"/>
+
+        <Text name="ion"/>
+
+        <Dynamics>
+
+            <StateVariable name="concentration" exposure="concentration" dimension="concentration"/>
+            <StateVariable name="extConcentration" exposure="extConcentration" dimension="concentration"/>
+
+            <DerivedVariable name="currDensCa" dimension="currentDensity" value="iCa / surfaceArea"/>
+            
+
+            <TimeDerivative variable="concentration" value="(currDensCa*gamma/(2*Faraday*depth)) - ((concentration - minCai) / decay)"/>
+
+            <OnStart>
+                <StateAssignment variable="concentration" value="initialConcentration"/>
+                <StateAssignment variable="extConcentration" value="initialExtConcentration"/>
+            </OnStart>
+
+        </Dynamics>
+
+    </ComponentType>
+
+</neuroml>
