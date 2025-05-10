@@ -3,20 +3,19 @@ import json
 ### extract biophys data and then make manual adjustments
 #default_parameters of L1_DAC_bNAC219_4_cell
 default_parameters = {
-    'SKv3_1': {'ion': 'k', 'erev': '-85.0 mV'},
-    'Nap_Et2': {'ion': 'na', 'erev': '50.0 mV'},
-    'NaTs2_t': {'ion': 'na', 'erev': '50.0 mV'},
-    'pas': {'ion': 'non_specific', 'erev': '-60.0 mV'},
-    'NaTa_t': {'ion': 'na', 'erev': '50.0 mV'},
-    'K_Tst': {'ion': 'k', 'erev': '-85.0 mV'},
-    'SK_E2': {'ion': 'k', 'erev': '-85.0 mV'},
-    'K_Pst': {'ion': 'k', 'erev': '-85.0 mV'},
-    'Im': {'ion': 'k', 'erev': '-85.0 mV'},
+    'Ca': {'ion': 'ca', 'erev': '132.4579341637009 mV'},
+    'CaDynamics_E2': {'ion': 'ca', 'erev': '132.4579341637009 mV'},
     'Ca_LVAst': {'ion': 'ca', 'erev': '132.4579341637009 mV'},
-    'Ca': {'ion': 'ca', 'erev': '132.4579341637009 mV'}
+    'K_Pst': {'ion': 'k', 'erev': '-85.0 mV'},
+    'K_Tst': {'ion': 'k', 'erev': '-85.0 mV'},
+    'NaTa_t': {'ion': 'na', 'erev': '50.0 mV'},
+    'Nap_Et2': {'ion': 'na', 'erev': '50.0 mV'},
+    'pas': {'ion': 'non_specific', 'erev': '-62.442793 mV'},
+    'NaTs2_t': {'ion': 'na', 'erev': '50.0 mV'},
 }
 
-with open('/home/gluciferd/2025GSoC_INCF_Candidate/S1_netpyne/sim/cell_data/L1_DAC_bNAC219_4/L1_DAC_bNAC219_4_cellParams.json') as file:
+
+with open('L1_DAC_cNAC187_1_cellParams.json') as file:
     data = json.load(file)
 
 mechs_ions_data = {}
@@ -60,5 +59,5 @@ for channel_key, segments in channels_info.items():
 neuroml_output += '  </membraneProperties>\n'
 neuroml_output += '</biophysicalProperties>\n'
 
-with open('L1_DAC_bNAC219_4_cell.biophys.cell.xml', 'w') as file:
+with open('L1_DAC_cNAC187_1_cell.biophys.cell.xml', 'w') as file:
     file.write(neuroml_output)
