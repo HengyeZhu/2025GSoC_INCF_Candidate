@@ -1,7 +1,7 @@
 import json
 
 ### extract morphology data and then make manual adjustments
-with open('L1_DAC_cNAC187_1_cellParams.json') as file:
+with open('L1_DLAC_cNAC187_1_cellParams.json') as file:
     data = json.load(file)
 
 topol_data = {}
@@ -42,5 +42,5 @@ for sec_name, pt3d_points in sections.items():
         hoc_code += f"    pt3dadd({x}, {y}, {z}, {diam})\n"  
     hoc_code += "  }\n"  
 
-with open('L1_DAC_cNAC187_1_cell.hoc', 'w') as file:
+with open('L1_DLAC_cNAC187_1_cell.hoc', 'w') as file:
     file.write(hoc_code)

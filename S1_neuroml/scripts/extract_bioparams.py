@@ -1,6 +1,6 @@
 import json
 
-with open('L1_DAC_cNAC187_1_cellParams.json', 'r') as file:
+with open('L1_DLAC_cNAC187_1_cellParams.json', 'r') as file:
     data = json.load(file)
 
 default_parameters = {}

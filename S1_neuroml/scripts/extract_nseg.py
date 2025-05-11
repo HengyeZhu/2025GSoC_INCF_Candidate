@@ -1,6 +1,6 @@
 import json
 
-file_name = 'L1_DAC_cNAC187_1_cellParams.json'
+file_name = 'L1_DLAC_cNAC187_1_cellParams.json'
 with open(file_name, 'r') as file:
     data = json.load(file)
 

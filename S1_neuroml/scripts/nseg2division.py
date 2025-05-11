@@ -8,7 +8,7 @@ with open("section_nseg_mapping.txt", "r") as file:
         section, nseg = line.strip().split(": ")
         nseg_mapping[section] = nseg
 
-nml_file = "L1_DAC_cNAC187_1_cell.nml" 
+nml_file = "L1_DLAC_cNAC187_1_cell.morph.cell.nml" 
 tree = ET.parse(nml_file)
 root = tree.getroot()
 
@@ -19,4 +19,4 @@ for segment_group in root.findall(".//{{{}}}segmentGroup".format(NAMESPACE)):
         segment_group.insert(0, prop)  
 
 ET.register_namespace("", NAMESPACE)
-tree.write("L1_DAC_cNAC187_1_cell_try.nml", encoding="UTF-8", xml_declaration=True)
+tree.write("L1_DLAC_cNAC187_1_cell.morph.cell.nml", encoding="UTF-8", xml_declaration=True)

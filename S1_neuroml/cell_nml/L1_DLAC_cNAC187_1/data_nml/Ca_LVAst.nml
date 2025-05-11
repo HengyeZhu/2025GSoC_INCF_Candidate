@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="NeuroML_ionChannel">
+
+    <ionChannel id="Ca_LVAst" conductance="10pS" type="ionChannelHH" species="ca">
+
+        <gate id="m" type="gateHHtauInf" instances="2">
+            <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
+            <timeCourse type="Ca_LVAst_m_tau"/>
+            <steadyState type="HHSigmoidVariable" rate="1" scale="6mV" midpoint="-40mV"/>
+        </gate>
+
+        <gate id="h" type="gateHHtauInf" instances="1">
+            <q10Settings type="q10Fixed" fixedQ10="2.95288264"/>
+            <timeCourse type="Ca_LVAst_h_tau"/>
+            <steadyState type="HHSigmoidVariable" rate="1" scale="-6.4mV" midpoint="-90mV"/>
+        </gate>
+                            
+    </ionChannel>
+
+    <ComponentType name="Ca_LVAst_m_tau" extends="baseVoltageDepTime">
+        <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
+        <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
+
+        <Dynamics>
+            <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>
+            <DerivedVariable name="t" exposure="t" dimension="time" value="(5 + 20 / (1 + (exp ((V+35)/5) ))) * TIME_SCALE"/>
+        </Dynamics>
+
+    </ComponentType>
+
+    <ComponentType name="Ca_LVAst_h_tau" extends="baseVoltageDepTime">
+        <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
+        <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
+
+        <Dynamics>
+            <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>
+            <DerivedVariable name="t" exposure="t" dimension="time" value="(20 + 50 / (1 + (exp ((V+50)/7) ))) * TIME_SCALE"/>
+        </Dynamics>
+
+    </ComponentType>
+
+</neuroml>
